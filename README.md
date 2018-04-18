@@ -5,11 +5,11 @@
 # 注意事项
 * 推荐使用纯净状态的发行版系统安装
 * 该脚本与本人的 V2RAY 一键脚本共存
-
+* 配置隐藏了robots.txt文件，如果想加登录密码，把public/index.php里第2行的注释取消掉，第5行自己设置用户名密码
 # 安装方式
 
 ```
-git clone https://github.com/yanshibin/h5ai_onekey_install-lnp-.git h5ai
+git https://github.com/wulabing/h5ai_onekey_install-lnp-.git h5ai
 cd h5ai
 bash h5ai.sh |tee h5ai.log
 ```
