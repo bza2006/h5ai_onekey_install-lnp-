@@ -86,6 +86,7 @@ nginx_install(){
         fi   
 }
 php7_install(){
+	apt-get update
         apt install php7.0-cgi php7.0-fpm php7.0-curl php7.0-gd -y
         if [[ $? -eq 0 ]];then
             echo -e "${OK} ${GreenBG} php7 安装成功 ${Font}"
