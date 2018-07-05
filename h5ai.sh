@@ -103,7 +103,7 @@ server {
 
     server_name ${domain};
     root /home/wwwroot/${domain};
-    index index.html /_h5ai/public/index.php;        
+    index index.html index.html /_h5ai/public/index.php;        
     location ~ \.php$ {
         include snippets/fastcgi-php.conf;
         fastcgi_pass unix:/run/php/php7.0-fpm.sock;
